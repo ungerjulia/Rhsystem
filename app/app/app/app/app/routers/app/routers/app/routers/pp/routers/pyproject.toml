@@ -1,0 +1,17 @@
+[project]
+name = "rhsystem"
+version = "0.1.0"
+description = "RH System MVP (FastAPI + SQLModel)"
+requires-python = ">=3.10"
+
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "sqlmodel>=0.0.24",
+  "python-dotenv>=1.0",
+  "passlib[bcrypt]>=1.7",
+  "python-jose[cryptography]>=3.3",
+]
+
+[tool.ruff]
+line-length = 100
